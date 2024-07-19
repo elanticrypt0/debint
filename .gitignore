@@ -1,0 +1,5 @@
+custom-disk
+custom-root
+*.iso
+*.md5
+*.img
