@@ -17,8 +17,13 @@ Dark
 
 ![](/wallpapers/preview-wallpaper-dark.jpg)
 
-# Modificaciones
+# Descarga
 
+El archivo iso se descarga via torrent
+
+[Descarga archivo torrent](/debint-live-1.0.1-amd64-gnome.iso.torrent)
+
+# Modificaciones
 
 
 ## Eliminados por defecto:
