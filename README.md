@@ -37,6 +37,7 @@ cheese
 # Apps instaladas por defecto:
 
 - curl
+- zsh
 - btop
 - duf
 - nano
@@ -46,7 +47,7 @@ cheese
 - neofetch
 - whois
 - exa
-- ripgrep
+- ripgrep (rg)
 - filezilla
 - wireshark
 - wget
@@ -57,7 +58,7 @@ cheese
 - sherlock
 - ffuf
 - nmap
-- seclist (run ./opt/get_seclist.sh)
+- seclist
 - xextractor
 - zapproxy
 

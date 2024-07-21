@@ -1,5 +1,6 @@
 custom-disk
 custom-root
+source-disk
 *.iso
 *.md5
 *.img
