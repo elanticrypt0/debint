@@ -1,10 +1,25 @@
 # DebINT
 
-Debian para OSINT
+Debian live cd modificado para realizar actividades de OSINT.
 
-# Debian
+## Base
 
-Versión: 12.6
+Versión de base4 **Debian live cd gnome amd64**
+
+## Además tenemos estos maravillosos wallpapers!
+
+
+Light
+
+![](/wallpapers/preview-wallpaper-light.jpg)
+
+Dark
+
+![](/wallpapers/preview-wallpaper-dark.jpg)
+
+# Modificaciones
+
+
 
 ## Eliminados por defecto:
 
@@ -14,7 +29,7 @@ libreoffice
 rhythmbox
 cheese
 
-# Apps instaladas por defecto
+# Apps instaladas por defecto:
 
 - curl
 - btop
@@ -33,7 +48,8 @@ cheese
 - exiftool
 - go
 - brave
-- sherlock (apt install sherlock)
+- pip
+- sherlock
 - ffuf
 - nmap
 - seclist
