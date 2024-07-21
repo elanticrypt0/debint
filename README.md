@@ -52,6 +52,19 @@ cheese
 - sherlock
 - ffuf
 - nmap
-- seclist
+- seclist (run ./opt/get_seclist.sh)
 - xextractor
 - zapproxy
+
+
+# Ayuda
+
+Archivos de configuración por defecto:
+
+## Variables de entorno
+
+/etc/enviroment
+
+## Bash
+
+/etc/profile
