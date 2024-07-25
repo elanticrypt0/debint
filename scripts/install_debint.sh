@@ -10,7 +10,7 @@ sudo apt remove -y rhythmbox
 sudo apt remove -y libreoffice
 
 # This this apps
-sudo apt install -y curl zsh htop btop duf nano vim neovim git neofetch whois exa ripgrep filezilla wireshark wget brave pip nmap tldr libimage-exiftool-perl
+sudo apt install -y curl zsh htop btop duf nano vim neovim git neofetch whois exa ripgrep filezilla wireshark wget brave pip nmap tldr libimage-exiftool-perl pip
 
 # fix pip problem
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
@@ -29,6 +29,8 @@ sudo chmod +x ~/*.sh
 
 #install go
 sudo chmod +x install_go.sh && ./install_go.sh
+
+cd $ACA
 
 # install java
 sudo chmod +x install_java.sh && ./install_java.sh
