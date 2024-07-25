@@ -1,5 +1,6 @@
 #!/bin/bash
 
+$ACA=pwd
 # This scripts install programs to OSINT tasks
 #
 sudo apt update && sudo apt upgrade -y
@@ -21,6 +22,8 @@ pip install sherlock-project
 cd /opt && git clone https://github.com/danielmiessler/SecLists
 
 # make .sh files executables
+
+cd $ACA
 
 sudo chmod +x ~/*.sh
 
