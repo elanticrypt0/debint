@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$ACA=pwd
+ACA=pwd
 # This scripts install programs to OSINT tasks
 #
 sudo apt update && sudo apt upgrade -y
