@@ -27,19 +27,19 @@ cd $ACA
 sudo chmod +x ~/*.sh
 
 #install go
-sudo chmod +x install_go.sh && ./install_go.sh
+bash install_go.sh
 
 cd $ACA
 
 # install java
-sudo chmod +x install_java.sh && ./install_java.sh
+bash install_java.sh
 
 # update PATH
-sudo chmod +x update_path.sh && ./update_path.sh
+bhas update_path.sh
 
 #install ffuf xextractor
 go install https://github.com/ffuf/ffuf 
 go install https://github.com/k23dev/xextractor
 
 # install zappproxy
-sudo chmod +x install_zapproxy.sh && ./install_zapproxy.sh
+bash install_zapproxy.sh
